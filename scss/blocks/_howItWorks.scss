@@ -1,0 +1,127 @@
+.howItWorks {
+    padding: 50px 0;
+    position: relative;
+}
+.decor-book{
+    &--left{
+        top: 0;
+        left: 120px;
+    }
+    &--right{
+        top: 70px;
+        right: 52px;
+    }
+}
+.decor-book__bottom{
+    bottom: 50px;
+    &--left{
+        left: 45px;
+    }
+    &--right{
+        right:52px;
+    }
+}
+.howItWorks-decor--blue{
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+.howItWorks-decor--yellow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.howItWorks-title{
+    padding: 98px 0;
+    text-align: center;
+}
+
+.howItWorks-wrapper {
+    position: relative;
+    max-width: 1060px;
+    margin: auto;
+
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 695px;
+        height: 695px;
+        border: 24px solid #608BFF;
+        border-radius: 50%;
+    }
+}
+.howItWorks-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -17px;
+    margin-right: -17px;
+}
+.howItWorks-column {
+    position: relative;
+    padding-left: 17px;
+    padding-right: 17px;
+    flex: 33.3333%;
+    max-width: 33.333%;
+    &:last-child{
+        margin: 0 auto;
+    }
+}
+// }
+.howItWorks-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 49px 23px;
+    border-radius: 50%;
+    background: #FFF9E8;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.05);
+    border: 20px solid white;
+    &--blue{
+        background: #E3F6FA;
+        box-shadow: 0px 0px 24px 0px rgba(0, 84, 103, 0.16)
+    }
+}
+.howItWorks-icon{
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 56px;
+    &--blue{
+        background: #608BFF;
+    }
+    &--orange{
+        background: #FF5000;
+    }
+    &--green{
+        background: #00C508;
+    }
+    &--purple{
+        background: #B900D7;
+    }
+}
+
+.howItWorks-item__icon {
+    margin-bottom: 20px;
+}
+.howItWorks-item__title {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+}
+.howItWorks-item__text {
+}
+.section-title {
+}
