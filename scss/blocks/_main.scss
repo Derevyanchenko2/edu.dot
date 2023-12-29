@@ -34,9 +34,13 @@
     margin-right: auto;
     position: relative;
 }
+.main-wrapper{
+    display: flex;
+}
 .main-content {
     max-width: 490px;
     width: 100%;
+    margin-right: 60px;
 }
 .main-content__title {
     max-width: 464px;
@@ -101,10 +105,9 @@
     font-weight: 500;
     line-height: 32px; 
 }
-.main-image {
-    position: absolute;
-    right: 0;
-}
+// .main-image {
+  
+// }
 .main-companies {
     padding: 40px 60px;
     display: flex;
