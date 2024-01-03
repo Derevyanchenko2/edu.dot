@@ -47,6 +47,9 @@
     @media(max-width:1200px){
         margin-right: 0px;
       }
+    @media(max-width:992px){
+        max-width: 100%;
+      }
 }
 .main-content__title {
     max-width: 464px;
@@ -54,6 +57,12 @@
     margin-bottom: 25px;
     span{
         color: #FF5000;
+    }
+    @media(max-width:992px){
+        max-width: 100%;
+      }
+    @media(max-width:768px){
+        margin-bottom: 35px;
     }
 }
 .main-title {
@@ -63,9 +72,12 @@
     font-style: normal;
     font-weight: 600;
     line-height: 74px; 
+    @media(max-width:992px){
+        font-size: 54px;
+        line-height: 58px;
+    }
     @media(max-width:768px){
         font-size: 42px;
-        line-height: 58px;
     }
 }
 .main-content__text {
@@ -128,7 +140,7 @@
 .main-image {
   @media(max-width:1200px){
     img{
-        max-width: 460px;
+        max-width: 540px;
         width: 100%;
     }
   }

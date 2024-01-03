@@ -4,9 +4,18 @@
 }
 .footer-wrapper {
     display: flex;
+    @media(max-width:768px){
+        flex-wrap: wrap;
+     }
 }
 .footer-left {
     margin-right: 130px;
+    @media(max-width:992px){
+       margin-right: 60px;
+    }
+    @media(max-width:768px){
+       margin-bottom: 35px;
+    }
 }
 
 .footer-socials {
@@ -27,15 +36,19 @@
     border-color: #161032;
     border-radius: 50%;
     transition: all 0.3s;
-    // &:hover{
-    //     // transition: all 0.3s;
-    //     // border-color: #fd3b8f;
-    //     // color: #fd3b8f
-    // }
 }
 .footer-menu__wrapper {
     display: flex;
     gap: 131px;
+    @media(max-width:1200px){
+        gap: 90px;
+    }
+    @media(max-width:992px){
+        gap: 60px;
+    }
+    @media(max-width:768px){
+        flex-wrap: wrap;
+    }
 }
 .footer-menu__title {
     color: #000;

@@ -52,6 +52,10 @@
         height: 695px;
         border: 24px solid #608BFF;
         border-radius: 50%;
+        @media(max-width:1200px){
+            width: 660px;
+            height: 660px;
+        }
     }
 }
 .howItWorks-row {
@@ -85,6 +89,9 @@
     &--blue{
         background: #E3F6FA;
         box-shadow: 0px 0px 24px 0px rgba(0, 84, 103, 0.16)
+    }
+    @media(max-width:1200px){
+        padding: 30px 25px;
     }
 }
 .howItWorks-icon{
@@ -120,8 +127,4 @@
     font-style: normal;
     font-weight: 600;
     line-height: 20px; /* 100% */
-}
-.howItWorks-item__text {
-}
-.section-title {
 }

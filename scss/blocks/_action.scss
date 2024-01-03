@@ -11,6 +11,19 @@
     margin-right: auto;
     padding: 35px 180px;
     text-align: center;
+    @media(max-width:1200px){
+        padding: 40px;
+    }
+    @media(max-width:992px){
+        border-radius: 200px;
+        text-align: center;
+        padding: 35px 20px;
+    }
+    @media(max-width:992px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-radius: 70px;
+    }
 }
 .action-box__title {
     color: #FFF;
@@ -20,6 +33,12 @@
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 48px;
+    @media(max-width:992px){
+        font-size: 38px;
+    }
+    @media(max-width:768px){
+        font-size: 35px;
+    }
 }
 .action-btn {
     border-radius: 32px;
