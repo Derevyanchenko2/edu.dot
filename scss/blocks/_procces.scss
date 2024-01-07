@@ -53,8 +53,8 @@
         height: 415px;
     }
     @media(max-width:460px){
-        width: 320px;
-        height: 320px;
+        width: 330px;
+        height: 330px;
     }
 }
 .yt-play {
@@ -62,6 +62,12 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
+    svg{
+        @media(max-width:768px){
+            width: 80px;
+            height: 80px;
+        }
+    }
 }
 .responsive-iframe {
     width: 100%;

@@ -20,3 +20,21 @@ function playVideo() {
   window.open(videoUrl, '_blank');
   videoFrame.style.display = 'block';
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll('.scroll-link, .mobileMenu-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const targetId = link.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      const offset = document.querySelector('.header').offsetHeight;
+
+      window.scrollTo({
+        top: targetElement?.offsetTop - offset,
+        behavior: 'smooth'
+      });
+
+      document.querySelector('.mobileMenu-close').click();
+    });
+  });
+});

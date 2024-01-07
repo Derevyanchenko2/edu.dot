@@ -80,5 +80,8 @@
     }
     &--orange{
         background: #FF5000;
+        &:hover{
+            background: #608BFF;
+        }
     }
 }

@@ -63,13 +63,13 @@ body {
 	margin-right: auto;
 }
 @media (min-width: 576px) {
-    .container {
+    .container{
         max-width:540px
     }
 }
 
 @media (min-width: 768px) {
-    .container {
+    .container{
         max-width:720px
     }
 }
@@ -160,6 +160,7 @@ img {
 	font-weight: 600;
 	line-height: 24px; 
     border-radius: 33.5px;
+	transition: 0.4s;
 	cursor: pointer;
 	&:hover{
         transition: 0.4s;
@@ -176,8 +177,12 @@ img {
 	font-weight: 600;
 	line-height: 24px; 
 	cursor: pointer;
+	transition: 0.4s;
 	@media(max-width:768px){
 		font-size: 12px;
+	}
+	&:hover{
+		transition: 0.4s;
 	}
 }
 .mx-auto {
